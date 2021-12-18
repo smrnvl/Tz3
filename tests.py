@@ -33,3 +33,7 @@ class Tests(unittest.TestCase):
         self.assertEqual(multiplication_of_nums([-0.1, -0.01, -0.001]), -0.000001)
         self.assertEqual(multiplication_of_nums([4.0, 4.0, 4.0]), 64)
         self.assertEqual(multiplication_of_nums([-3.0, -3.0, -3.0]), -27)
+
+
+if __name__ == '__main__':
+    unittest.main()
