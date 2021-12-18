@@ -1,5 +1,6 @@
 # Техническое задание 3
 
+![example workflow](https://github.com/smrnvl/Tz3/actions/workflows/test-my-project.yml/badge.svg)
 ## Хоть бы правильно...
 
 ### В данном репозитории размещены:
