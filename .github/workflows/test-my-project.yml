@@ -15,4 +15,4 @@ jobs:
         with:
           python-version: 3.9
       - name: Run 'minimum_of_nums'
-        run: python unittest tests.py
+        run: python -m unittest tests.py
