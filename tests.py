@@ -5,7 +5,7 @@ from hw3 import sum_of_nums
 from hw3 import multiplication_of_nums
 
 
-class TestMinimum(unittest.TestCase):
+class Tests(unittest.TestCase):
     def test_minimum(self):
         self.assertEqual(minimum_of_nums([5.0, -0.0, 2.5]), 0)
         self.assertEqual(minimum_of_nums([-5.3, 1.2, 1.1]), -5.3)
