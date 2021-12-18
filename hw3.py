@@ -35,7 +35,7 @@ def minimum_of_nums(numbers_list):
                 min_num = num
         return float_or_int(min_num)
     except OverflowError:
-        return 'Too big'
+        return 'inf'
 
 
 def maximum_of_nums(numbers_list):
@@ -46,7 +46,7 @@ def maximum_of_nums(numbers_list):
                 max_num = num
         return float_or_int(max_num)
     except OverflowError:
-        return 'Too big'
+        return 'inf'
 
 
 def sum_of_nums(numbers_list):
@@ -56,7 +56,7 @@ def sum_of_nums(numbers_list):
             sum_nums += num
         return float_or_int(sum_nums)
     except OverflowError:
-        return 'Too big'
+        return 'inf'
 
 
 def multiplication_of_nums(numbers_list):
@@ -66,7 +66,7 @@ def multiplication_of_nums(numbers_list):
             multiplication_nums *= num
         return float_or_int(multiplication_nums)
     except OverflowError:
-        return 'Too big'
+        return 'inf'
 
 
 numbers = get_numbers()
@@ -75,7 +75,7 @@ maximum = maximum_of_nums(numbers)
 summa = sum_of_nums(numbers)
 multiplication = multiplication_of_nums(numbers)
 
-print('Минимальное:', minimum,
-      '\nМаксимальное:', maximum,
-      '\nСумма:', summa,
-      '\nПроизведение:', multiplication,)
+# print('Минимальное:', minimum,
+#       '\nМаксимальное:', maximum,
+#       '\nСумма:', summa,
+#       '\nПроизведение:', multiplication,)
