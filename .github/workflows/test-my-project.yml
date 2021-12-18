@@ -16,5 +16,11 @@ jobs:
         with:
           python-version: 3.9
 
-      - name: Run 'minimum_of_nums'
+      - name: Test 'minimum_of_nums'
         run: python -m unittest tests.Tests.test_minimum
+      - name: Test 'maximum_of_nums'
+          run: python -m unittest tests.Tests.test_maximum
+      - name: Test 'sum_of_nums'
+          run: python -m unittest tests.Tests.test_sum
+      - name: Test 'multiplication_of_nums'
+          run: python -m unittest tests.Tests.test_multiplication
