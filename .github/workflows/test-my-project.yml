@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntг-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install python
