@@ -10,5 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Install python
+        uses: actions/setup-python@v2.3.1
+        with:
+          python-version: 3.9
       - name: Run 'minimum_of_nums'
         run: python -m unittest tests.Tests.test_minimum
