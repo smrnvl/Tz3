@@ -52,7 +52,7 @@ maximum = maximum_of_nums(numbers)
 summa = sum_of_nums(numbers)
 multiplication = multiplication_of_nums(numbers)
 
-print('Минимальное:', minimum,
-      '\nМаксимальное:', maximum,
-      '\nСумма:', summa,
-      '\nПроизведение:', multiplication,)
+# print('Минимальное:', minimum,
+#       '\nМаксимальное:', maximum,
+#       '\nСумма:', summa,
+#       '\nПроизведение:', multiplication,)
