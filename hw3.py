@@ -56,3 +56,4 @@ multiplication = multiplication_of_nums(numbers)
 #       '\nМаксимальное:', maximum,
 #       '\nСумма:', summa,
 #       '\nПроизведение:', multiplication,)
+#
